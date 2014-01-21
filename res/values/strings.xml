@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">H3</string>
+    <string name="btn_connect">화면을 터치하면 \n블루투스 접속을 합니다.</string>
+     <!-- Bluetooth connection states -->
+    <string name="state_not_connected">연결되지 않았습니다</string>
+    <string name="state_connecting">연결중입니다. 잠시만 기다려주세요</string>
+    <string name="state_connected">연결되었습니다</string>
+    <string name="state_error">연결에 실패하였습니다</string>    
+</resources>

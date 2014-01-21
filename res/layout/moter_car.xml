@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/x_btn"
+            android:layout_width="240px"
+            android:layout_height="240px"
+            android:text="X" />
+
+        <Button
+            android:id="@+id/y_btn"
+            android:layout_width="240px"
+            android:layout_height="240px"
+            android:text="Y" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/z_btn"
+            android:layout_width="240px"
+            android:layout_height="240px"
+            android:text="Z" />
+
+        <Button
+            android:id="@+id/h_btn"
+            android:layout_width="240px"
+            android:layout_height="240px"
+            android:text="H" />
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="240px"
+            android:layout_height="240px"
+            android:text="back" />
+
+        <Button
+            android:id="@+id/go_btn"
+            android:layout_width="240px"
+            android:layout_height="240px"
+            android:text="go" />
+    </LinearLayout>
+    
+
+</LinearLayout>

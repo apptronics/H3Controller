@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  	
+    	<Button
+	  		android:id="@+id/btn_lmotor"
+			android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content"
+	  		android:textSize="20sp"
+	  		android:textColor="#ff0000ff"
+	  		android:text="왼쪽"/>
+    <Button
+	  		android:id="@+id/btn_rmotor"
+			android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content"
+	  		android:textSize="20sp"
+	  		android:textColor="#ff0000ff"
+	  		android:text="오른쪽"/>
+    
+	  	<Button
+	  		android:id="@+id/btn_forward"
+			android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content"
+	  		android:textSize="20sp"
+	  		android:textColor="#ff0000ff"
+	  		android:text="전진"/>
+	  	
+	  	<Button
+	  		android:id="@+id/btn_backward"
+			android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content"
+	  		android:textSize="20sp"
+	  		android:textColor="#ff0000ff"
+	  		android:text="후진"/>  	
+	  		
+	  	<Button
+	  		android:id="@+id/btn_stop"
+			android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content"
+	  		android:textSize="20sp"
+	  		android:textColor="#ff0000ff"
+	  		android:text="멈춤"/> 
+	  		
+  		
+</LinearLayout>

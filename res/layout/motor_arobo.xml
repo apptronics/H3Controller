@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/l_turn"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:background="@drawable/l_tun1" />
+
+        <Button
+            android:id="@+id/r_turn"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:background="@drawable/r_tun1" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_forward"
+        android:layout_width="166px"
+        android:layout_height="84px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/foword_btn1" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="166px"
+        android:layout_height="166px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/stop_btn1" />
+
+    <Button
+        android:id="@+id/btn_backward"
+        android:layout_width="166px"
+        android:layout_height="84px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/backword_btn1" />
+
+    <Button
+        android:id="@+id/btn_lmotor"
+        android:layout_width="91px"
+        android:layout_height="166px"
+        android:layout_marginTop="220dp"
+        android:layout_toLeftOf="@id/btn_stop"
+        android:background="@drawable/l_go1" />
+
+    <Button
+        android:id="@+id/btn_rmotor"
+        android:layout_width="91px"
+        android:layout_height="166px"
+        android:layout_marginTop="220dp"
+        android:layout_toRightOf="@id/btn_stop"
+        android:background="@drawable/r_go1" />
+
+    <LinearLayout
+        android:id="@+id/power_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/power_down"
+            android:layout_width="240px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+            android:text="POWER DOWN"
+            android:textSize="9pt" />
+
+        <Button
+            android:id="@+id/power_up"
+            android:layout_width="240px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn"
+            android:text="POWER UP"
+            android:textSize="9pt" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/powertext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/power_btn"
+        android:text="power"
+        android:textSize="14pt" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:gravity="center_horizontal"
+        android:layout_marginTop="110dp"
+        >
+
+        <Button
+            android:id="@+id/l_view"
+            android:layout_width="160px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/l_view"/>
+
+        <Button
+            android:id="@+id/center_view"
+            android:layout_width="160px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/center_view" />
+
+        <Button
+            android:id="@+id/r_view"
+            android:layout_width="160px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/r_view"/>"
+    </LinearLayout>
+
+</RelativeLayout>

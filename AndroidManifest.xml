@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kr.co.apptronics.acube.example"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name="MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 라이브러리에 포함된 Activity -->
+        <activity
+            android:label="@string/app_name"
+            android:name="kr.co.apptronics.acube.bt.ConnectBluetoothActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:configChanges="orientation|keyboardHidden"
+            android:name="kr.co.apptronics.acube.bt.DeviceListActivity"
+            android:theme="@android:style/Theme.Dialog" />
+
+        <!-- 설정 -->
+        <activity
+            android:name="MyPreferenceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+
+        <!-- 샘플 프로그램 Activity -->
+        <!-- 부품별테스트 -->
+        <activity android:name="H3ControlActivity"></activity>
+    </application>
+
+    <uses-sdk android:minSdkVersion="10" android:targetSdkVersion="10"/>
+
+    <uses-permission android:name="android.permission.BLUETOOTH" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" >
+    </uses-permission>
+
+    <!-- ${your package name}.PERMISSION -->
+    <uses-permission android:name="kr.co.apptronics.acube.PERMISSION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" >
+    </uses-permission>
+
+</manifest>
